@@ -20,7 +20,7 @@ body {
 .site-wrapper {
 	min-width: 1200px;
 	background-color: #849d8f;
-	background: url("/img/back-1-min.jpg") top center no-repeat;
+	background: url("../img/back-1-min.jpg") top center no-repeat;
 	transition: background-image 0s ease, background-color 0s ease;
 }
 
@@ -32,11 +32,11 @@ body {
 
 .site-wrapper::before,
 .site-wrapper::after {
-	background-image: url("/img/back-2-min.jpg");
+	background-image: url("../img/back-2-min.jpg");
 }
 
 .site-wrapper::after {
-	background-image: url("/img/back-3-min.jpg");
+	background-image: url("../img/back-3-min.jpg");
 }
 
 .container {
