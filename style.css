@@ -20,7 +20,7 @@ body {
 .site-wrapper {
 	min-width: 1200px;
 	background-color: #849d8f;
-	background: url("../img/back-1-min.jpg") top center no-repeat;
+	background: url("/img/back-1-min.jpg") top center no-repeat;
 	transition: background-image 0s ease, background-color 0s ease;
 }
 
@@ -32,11 +32,11 @@ body {
 
 .site-wrapper::before,
 .site-wrapper::after {
-	background-image: url("../img/back-2-min.jpg");
+	background-image: url("/img/back-2-min.jpg");
 }
 
 .site-wrapper::after {
-	background-image: url("../img/back-3-min.jpg");
+	background-image: url("/img/back-3-min.jpg");
 }
 
 .container {
@@ -421,11 +421,11 @@ a {
 	left: 15px;
 	width: 20px;
 	height: 20px;
-	background: url("../img/entrance.svg") 0 0 no-repeat;
+	background: url("/img/entrance.svg") 0 0 no-repeat;
 }
 
 .enter-btn:hover::before {
-	background: url("../img/entrance-black.svg") 0 0 no-repeat;
+	background: url("/img/entrance-black.svg") 0 0 no-repeat;
 }
 
 .enter p {
@@ -450,11 +450,11 @@ a {
 	left: 15px;
 	width: 20px;
 	height: 20px;
-	background: url("../img/basket.svg") 0 0 no-repeat;
+	background: url("/img/basket.svg") 0 0 no-repeat;
 }
 
 .cart-btn:hover::before {
-	background: url("../img/basket-black.svg") 0 0 no-repeat;
+	background: url("/img/basket-black.svg") 0 0 no-repeat;
 }
 
 .user-menu-item .products-added {
@@ -472,7 +472,7 @@ a {
 	left: 15px;
 	width: 20px;
 	height: 20px;
-	background: url("../img/basket-red.svg") 0 0 no-repeat;
+	background: url("/img/basket-red.svg") 0 0 no-repeat;
 }
 
 .user-menu-btn:hover {
@@ -570,17 +570,17 @@ a {
 
 #btn-1:checked ~ .site-wrapper {
 	background-color: #849d8f;
-	background-image: url("../img/back-1-min.jpg");
+	background-image: url("/img/back-1-min.jpg");
 }
 
 #btn-2:checked ~ .site-wrapper {
 	background-color: #8996a6;
-	background-image: url("../img/back-2-min.jpg");
+	background-image: url("/img/back-2-min.jpg");
 }
 
 #btn-3:checked ~ .site-wrapper {
 	background-color: #9d8b84;
-	background-image: url("../img/back-3-min.jpg");
+	background-image: url("/img/back-3-min.jpg");
 }
 
 #btn-1:checked ~ .site-wrapper label[for="btn-1"],
@@ -615,12 +615,12 @@ a {
 }
 
 .promo-banner.raspberry {
-	background: #9b2a4a url("../img/malina.jpg");
+	background: #9b2a4a url("/img/malina.jpg");
 	background-size: cover;
 }
 
 .promo-banner.chocolate {
-	background: #512f21 url("../img/choco.jpg");
+	background: #512f21 url("/img/choco.jpg");
 	background-size: cover;
 }
 
@@ -631,7 +631,7 @@ a {
 	padding: 25px 20px 0 20px;
 	color: #323232;
 	font-size: 16px;
-	background: url("../img/waffel.jpg")  0 0 repeat;
+	background: url("/img/waffel.jpg")  0 0 repeat;
 	background-color: #f1e6cf;
 	border-radius: 17px;
 }
@@ -674,7 +674,7 @@ a {
 	left: 0;
 	width: 50px;
 	height: 50px;
-	background: url("../img/ice-cream.svg") 0 0 no-repeat;
+	background: url("/img/ice-cream.svg") 0 0 no-repeat;
 }
 
 .f2::before {
@@ -684,7 +684,7 @@ a {
 	left: 0;
 	width: 50px;
 	height: 50px;
-	background: url("../img/cow.svg") 0 0 no-repeat;
+	background: url("/img/cow.svg") 0 0 no-repeat;
 }
 
 .f3::before {
@@ -694,7 +694,7 @@ a {
 	left: 0;
 	width: 50px;
 	height: 50px;
-	background: url("../img/eco.svg") 0 0 no-repeat;
+	background: url("/img/eco.svg") 0 0 no-repeat;
 }
 
 .f4::before {
@@ -704,13 +704,13 @@ a {
 	left: 0;
 	width: 50px;
 	height: 50px;
-	background: url("../img/thermometer.svg") 0 0 no-repeat;
+	background: url("/img/thermometer.svg") 0 0 no-repeat;
 }
 
 .blog-news-alt {
 	width: 560px;
 	color:  #323232;
-	background: url("../img/strawberry-background.jpg") 63% 50% no-repeat;
+	background: url("/img/strawberry-background.jpg") 63% 50% no-repeat;
 	background-color: #ffffff;
 	border-radius: 17px;
 	padding-top: 22px;
@@ -740,7 +740,7 @@ a {
 .subscribe-alt {
 	width: 562px;
 	padding: 5px;
-	background: url("../img/bg-post.svg") 0 0 no-repeat;
+	background: url("/img/bg-post.svg") 0 0 no-repeat;
 	border-radius: 17px;
 }
 
@@ -857,7 +857,7 @@ a {
 	margin-right: 17px;
 	width: 18px;
 	height: 18px;
-	background: url("../img/cross-big.svg") no-repeat;
+	background: url("/img/cross-big.svg") no-repeat;
 	border: none;
 	background-color: transparent;
 }
@@ -865,7 +865,7 @@ a {
 .item-remove {
 	width: 11px;
 	height: 11px;
-	background: url("../img/cross-small.svg") no-repeat;
+	background: url("/img/cross-small.svg") no-repeat;
 	border: none;
 	background-color: transparent;
 	position: absolute;
@@ -995,11 +995,11 @@ a {
 	left: 7px;
 	width: 18px;
 	height: 18px;
-	background: url("../img/loupe.svg") 0 0 no-repeat;
+	background: url("/img/loupe.svg") 0 0 no-repeat;
 }
 
 .search-btn:hover::before {
-	background: url("../img/loupe-black.svg") 0 0 no-repeat;
+	background: url("/img/loupe-black.svg") 0 0 no-repeat;
 }
 
 .enter a {
@@ -1070,11 +1070,11 @@ a {
 	left: 0;
 	width: 25px;
 	height: 25px;
-	background: url("../img/radio-off.svg") 0 0 no-repeat;
+	background: url("/img/radio-off.svg") 0 0 no-repeat;
 }
 
 .filters input[type="radio"]:checked + label::before {
-	background: url("../img/radio-on.svg") 0 0 no-repeat;
+	background: url("/img/radio-on.svg") 0 0 no-repeat;
 }
 
 .filters input[type="checkbox"] + label::before {
@@ -1084,11 +1084,11 @@ a {
 	left: 1px;
 	width: 25px;
 	height: 25px;
-	background: url("../img/checkbox-off.svg") 0 0 no-repeat;
+	background: url("/img/checkbox-off.svg") 0 0 no-repeat;
 }
 
 .filters input[type="checkbox"]:checked + label::before {
-	background: url("../img/checkbox-on.svg") 0 0 no-repeat;
+	background: url("/img/checkbox-on.svg") 0 0 no-repeat;
 }
 
 .filter-button {
